@@ -64,5 +64,137 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-transcriptout-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://transcriptout.com/
+TranscriptOut provides a YouTube transcript API that allows bulk extraction of transcripts from any YouTube link, playlist, channel, or video batch up to 4,000 videos at once. It offers plain text, JSON, SRT, and VTT formats, with customizable segment sizes, and operates without scraping, captchas, or blocks. Free to start and available via MCP.
+
+**Areas:** YouTube · Transcripts · API · Bulk · MCP
+
+## transcriptout-com on APIs.io
+
+Everything profiled for transcriptout-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/transcriptout-com/](https://apis.io/providers/transcriptout-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [TranscriptOut API](https://apis.io/apis/transcriptout-com/transcriptout-api/) — YouTube transcript API reference providing endpoints for transcript extraction, video search, and related data.
+- [transcriptout-com API](https://apis.io/apis/transcriptout-com/transcriptout-com-api/) — transcriptout-com API as documented publicly: 19 operations. Contract generated from the documentation by API Evangelist (2026-10-31); not the provider's…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetV1SearchResponse](https://apis.io/schemas/transcriptout-com/transcriptout-com-get-v1-search-response/)
+- [GetV1TranscriptsJobidResponse](https://apis.io/schemas/transcriptout-com/transcriptout-com-get-v1-transcripts-jobid-response/)
+- [GetV1TranscriptsJobidResultsResponse](https://apis.io/schemas/transcriptout-com/transcriptout-com-get-v1-transcripts-jobid-results-response/)
+- [GetV1VideoResponse](https://apis.io/schemas/transcriptout-com/transcriptout-com-get-v1-video-response/)
+- [PostV1TranscriptsJobidCancelResponse](https://apis.io/schemas/transcriptout-com/transcriptout-com-post-v1-transcripts-jobid-cancel-response/)
+- [PostV1TranscriptsResponse](https://apis.io/schemas/transcriptout-com/transcriptout-com-post-v1-transcripts-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Transcriptout Com Context](https://apis.io/jsonld/transcriptout-com/transcriptout-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [transcriptout-com API Rules](https://apis.io/rules/transcriptout-com/transcriptout-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Transcriptout Com Authentication](https://apis.io/security/transcriptout-com/transcriptout-com-authentication/)
+- [Transcriptout Com Domain Security](https://apis.io/security/transcriptout-com/transcriptout-com-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Transcriptout Com Scopes](https://apis.io/scopes/transcriptout-com/transcriptout-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Transcriptout Com Plans Pricing](https://apis.io/plans/transcriptout-com/transcriptout-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Transcriptout Com Rate Limits](https://apis.io/rate-limits/transcriptout-com/transcriptout-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://transcriptout.com/)
+- [Documentation](https://transcriptout.com/docs)
+- [Getting started](https://transcriptout.com/docs#quickstart)
+- [API reference](https://transcriptout.com/docs)
+- [Pricing](https://transcriptout.com/#pricing)
+- [Sign up](https://transcriptout.com/login)
+- [Support](https://transcriptout.com/contact)
+- [Terms of service](https://transcriptout.com/terms)
+- [Privacy policy](https://transcriptout.com/privacy)
+- [GitHub](https://github.com/artemchuikin)
+
+## API Evangelist rating
+
+**Kin Score 57.2** — strong · rubric 0.25.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 55.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 24.2 |
+| Developer ergonomics | 61.9 |
+| Access clarity | 44.7 |
+
+**Agent readiness 36.6** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | verified |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 34.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/transcriptout-com/](https://apis.io/providers/transcriptout-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for transcriptout-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/transcriptout-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
